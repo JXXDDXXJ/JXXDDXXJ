@@ -1,3 +1,5 @@
+# Description : rename a -.mp4 file in many subfolders, contained in the same root folder, with its subfolder's name
+
 import os
 
 root = '/directory/'
