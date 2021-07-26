@@ -1,4 +1,5 @@
 # Description : rename a -.mp4 file in many subfolders, contained in the same root folder, with its subfolder's name
+# /Directory/ : C:/Users/JXXDDXXJ/Desktop/Example
 
 import os
 
