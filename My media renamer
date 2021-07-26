@@ -1,0 +1,13 @@
+import os
+
+root = '/directory/'
+
+for path , subdir , files in os.walk(root):
+    if len(subdir) == 0:
+        subdir_name = os.path.basename(path)
+        #print(os.path.basename(path))
+
+    for file_name in files:
+        if file_name.endswith('.mp4'):
+            #print(os.path.join(path,file_name))
+            os.rename(os.path.join(path,file_name),os.path.join(path,subdir_name+'.mp4'))
